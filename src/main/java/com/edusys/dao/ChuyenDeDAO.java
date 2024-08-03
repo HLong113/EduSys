@@ -15,6 +15,7 @@ import java.util.List;
  *
  * @author Dino
  */
+//new
 public class ChuyenDeDAO extends EduSysDAO<ChuyenDe, String> {
 
     final String INSERT_SQL = "INSERT INTO ChuyenDe (MaCD, TenCD, HocPhi, ThoiLuong, Hinh, MoTa) values (?,?,?,?,?,?) ";
